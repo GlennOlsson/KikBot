@@ -1,0 +1,1 @@
+javac -d bin -sourcepath src -cp json-simple-1.1.1.jar:kik-botmill-2.0.0-RC1.jar:KJA-0.5WithDependencies.jar src/Test.java
