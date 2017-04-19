@@ -12,4 +12,11 @@ public class Test {
 			e.printStackTrace();
 		}
 	}
+	
+	public void onTextReceived(Message msg)
+	{
+		System.err.println("EYYYYYY");
+		msg.getChat().sendMessage(new Message("Hi there!", Message.Type.TEXT));
+	}
+	
 }
